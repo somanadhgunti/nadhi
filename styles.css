@@ -1,0 +1,72 @@
+header{
+    height: 100vh;
+    background-color: blue;
+    color: white;
+}
+body{
+    margin:0;
+}
+section{
+    height: 100vh;
+    border:2px solid black;
+    border-radius: 30px;
+    margin:5px;
+}
+header h1{
+    margin:0;
+    font-family: monospace;
+    height: 50px;;
+    font-size: 100px;
+    color:white;
+}
+h1{
+    margin:0;
+    font-family: monospace;
+    height: 50px;;
+    font-size: 80px;
+    color: blue;
+}
+img{
+    height: 50%;
+}
+header button{
+   
+    margin:10px;
+    height: 50px;
+    width: 90px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+}
+
+#somu:hover{
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#nadh:hover{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+footer{
+    height: 70px;
+    color: white;
+    background-color: black;
+}
+*{
+text-transform: capitalize;
+font-size: 20px;
+}
+.top{
+    position: fixed;
+    bottom : 5px;
+    right: 5px;
+    border: black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+}
